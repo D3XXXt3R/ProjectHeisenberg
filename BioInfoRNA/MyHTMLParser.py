@@ -1,4 +1,5 @@
 from html.parser import HTMLParser
+import re
 
 
 class MyHTMLParser(HTMLParser):
@@ -9,5 +10,17 @@ class MyHTMLParser(HTMLParser):
             for name, value in attrs:
                 # If href is defined, print it.
                 if name == "href":
-                    print(name, "=", value)
-                    print(value[-4:])
+                    if (value[7:15] == 'www.rcsb'):
+                        # print(name, "=", value)
+                        if (re.findall('\d+', value[-4:])):
+                            # print(name, "=", value)
+                            print("PDB id")
+                            print(value[-4:])
+                    if (value[7:15] == 'ndbserve'):
+                        if (re.findall('\d+', value[-6:]) and not ('=' in value[-6:])):
+                            # print(name, "=", value)
+                            print("NDB id")
+                            print(value[-6:])
+                        elif (re.findall('\d+', value[-6:])):
+                            print("NDB id")
+                            print(value[-4:])
