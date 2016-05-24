@@ -1,12 +1,12 @@
-[INFO  - 2016-05-22T21:59:42.073Z] GhostDriver - Main - running on port 60189
-[INFO  - 2016-05-22T21:59:42.284Z] Session [7cbb5c00-2068-11e6-b669-2f1463f2e708] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2016-05-22T21:59:42.284Z] Session [7cbb5c00-2068-11e6-b669-2f1463f2e708] - page.customHeaders:  - {}
-[INFO  - 2016-05-22T21:59:42.284Z] Session [7cbb5c00-2068-11e6-b669-2f1463f2e708] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2016-05-22T21:59:42.285Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7cbb5c00-2068-11e6-b669-2f1463f2e708
-[ERROR - 2016-05-22T21:59:59.216Z] Session [7cbb5c00-2068-11e6-b669-2f1463f2e708] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('my_form').action')
+[INFO  - 2016-05-24T18:53:36.006Z] GhostDriver - Main - running on port 50207
+[INFO  - 2016-05-24T18:53:36.432Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T18:53:36.432Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T18:53:36.432Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T18:53:36.433Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d2315c60-21e0-11e6-8002-e3959ed79814
+[ERROR - 2016-05-24T18:53:40.836Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('my_form').action')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2016-05-22T21:59:59.216Z] Session [7cbb5c00-2068-11e6-b669-2f1463f2e708] - page.onError - stack:
+[ERROR - 2016-05-24T18:53:40.837Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - page.onError - stack:
   onclick (http://rnafrabase.cs.put.poznan.pl/:169)
   dispatchEvent (:0)
   U (:119)

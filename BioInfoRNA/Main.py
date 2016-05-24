@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 
 class Main:
-    file = open('Text', 'w')
+    file = open('Text.txt', 'w')
     browser = webdriver.PhantomJS("C:/Users/Dante/Desktop/phantom/bin/phantomjs")
     # browser = webdriver.Chrome("C:/Users/Dante/Desktop/chromedriver.exe")
     browser.get("http://rnafrabase.cs.put.poznan.pl")
@@ -35,9 +35,10 @@ class Main:
     parser = MyHTMLParser()
     print("Do you want to save data to a file?")
     answer2 = input()
-    if answer2.lower == "yes":
+    if answer2.lower() == 'yes':
         for row in (soup.find_all(attrs={"class": "row_table1"}) or soup.find_all(attrs={"class": "row_table2"})):
+            # print(row.text)
             file.write(row.text)
-        file.close()
     else:
         parser.feed(tmp)
+    file.close()
