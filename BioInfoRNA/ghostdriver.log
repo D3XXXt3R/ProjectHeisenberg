@@ -1,21 +1,5 @@
-[INFO  - 2016-05-24T18:53:36.006Z] GhostDriver - Main - running on port 50207
-[INFO  - 2016-05-24T18:53:36.432Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2016-05-24T18:53:36.432Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - page.customHeaders:  - {}
-[INFO  - 2016-05-24T18:53:36.432Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2016-05-24T18:53:36.433Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d2315c60-21e0-11e6-8002-e3959ed79814
-[ERROR - 2016-05-24T18:53:40.836Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('my_form').action')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2016-05-24T18:53:40.837Z] Session [d2315c60-21e0-11e6-8002-e3959ed79814] - page.onError - stack:
-  onclick (http://rnafrabase.cs.put.poznan.pl/:169)
-  dispatchEvent (:0)
-  U (:119)
-  $ (:108)
-  $ (:101)
-  gh (:141)
-  sh (:152)
-  (anonymous function) (:152)
-  (anonymous function) (:152)
-  (anonymous function) (:153)
-
-  phantomjs://platform/console++.js:263 in error
+[INFO  - 2016-05-30T15:03:52.992Z] GhostDriver - Main - running on port 55376
+[INFO  - 2016-05-30T15:03:53.354Z] Session [b9509ad0-2677-11e6-ab9e-3dd849634fc7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-30T15:03:53.355Z] Session [b9509ad0-2677-11e6-ab9e-3dd849634fc7] - page.customHeaders:  - {}
+[INFO  - 2016-05-30T15:03:53.355Z] Session [b9509ad0-2677-11e6-ab9e-3dd849634fc7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-30T15:03:53.355Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b9509ad0-2677-11e6-ab9e-3dd849634fc7

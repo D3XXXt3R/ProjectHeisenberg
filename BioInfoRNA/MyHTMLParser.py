@@ -17,13 +17,16 @@ class MyHTMLParser(HTMLParser):
                             print("PDB id")
                             print(value[-4:])
                             print(value)
+                            print(" ")
                     if (value[7:15] == 'ndbserve'):
                         if (re.findall('\d+', value[-6:]) and not ('=' in value[-6:])):
                             # print(name, "=", value)
                             print("NDB id")
                             print(value[-6:])
                             print(value)
+                            print(" ")
                         elif (re.findall('\d+', value[-6:])):
                             print("NDB id")
                             print(value[-4:])
                             print(value)
+                            print(" ")
