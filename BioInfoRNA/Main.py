@@ -1,10 +1,12 @@
 from selenium import webdriver
 from BioInfoRNA.MyHTMLParser import MyHTMLParser
+from BioInfoRNA.Check import Check
 from bs4 import BeautifulSoup
 import re
 
 
 class Main:
+    C = Check()
     file = open('Text.txt', 'w')
     browser = webdriver.PhantomJS("C:/Users/Dante/Desktop/phantom/bin/phantomjs")
     # browser = webdriver.Chrome("C:/Users/Dante/Desktop/chromedriver.exe")
@@ -20,8 +22,8 @@ class Main:
             text1.send_keys(">strand" + str(flag) + "\n")
         print("Please input sequence(s) and/or secondary structure(s) given in the dot-bracket notation")
         seq = input()
-        if ("." in seq and len(seq) < 10) or (len(seq) < 3 and not ("." in seq)) \
-                or (len(seq) < 6 and not (("(" in seq)or (")" in seq))) or (re.findall('\d+', seq)):
+        if  or C.checkNumbers(seq) \
+                or C.checkLetters(seq):
             print("Sequence is too short or bad input")
             print("Please, try again")
         else:
