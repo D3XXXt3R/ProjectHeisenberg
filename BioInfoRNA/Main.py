@@ -7,6 +7,8 @@ import re
 
 class Main:
     C = Check()
+    table = []
+    sequence = ""
     file = open('Text.txt', 'w')
     browser = webdriver.PhantomJS("C:/Users/Dante/Desktop/phantom/bin/phantomjs")
     # browser = webdriver.Chrome("C:/Users/Dante/Desktop/chromedriver.exe")
@@ -22,7 +24,7 @@ class Main:
             text1.send_keys(">strand" + str(flag) + "\n")
         print("Please input sequence(s) and/or secondary structure(s) given in the dot-bracket notation")
         seq = input()
-        if  or C.checkNumbers(seq) \
+        if C.checkLength(seq) or C.checkNumbers(seq) \
                 or C.checkLetters(seq):
             print("Sequence is too short or bad input")
             print("Please, try again")
@@ -44,9 +46,12 @@ class Main:
     print("Do you want to save data to a file?")
     answer2 = input()
     if answer2.lower() == 'yes':
-        for row in (soup.find_all(attrs={"class": "row_table1"}) or soup.find_all(attrs={"class": "row_table2"})):
-            # print(row.text)
+        for row in (soup.find_all(attrs={"class": ["row_table1", "row_table2"]})):
+            list1 = row.text.splitlines()
+            sequence = ''.join(list1)
+            # print(str(len(row.text)) + "fsafasfasfas")
             file.write(row.text)
+            print(' '.join(sequence.split()))
     else:
         parser.feed(tmp)
     file.close()
