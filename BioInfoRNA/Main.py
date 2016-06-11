@@ -9,6 +9,10 @@ class Main:
     C = Check()
     table = []
     sequence = ""
+    sequence2 = ""
+    counter = 0
+    names = ("No.", "PDB id", "NDB id", "Sequence", "Secondary Structure",
+             "Chain", "Start", "End", "Method", "Class", "PDB deposition", "Å", "Models")
     file = open('Text.txt', 'w')
     browser = webdriver.PhantomJS("C:/Users/Dante/Desktop/phantom/bin/phantomjs")
     # browser = webdriver.Chrome("C:/Users/Dante/Desktop/chromedriver.exe")
@@ -24,8 +28,8 @@ class Main:
             text1.send_keys(">strand" + str(flag) + "\n")
         print("Please input sequence(s) and/or secondary structure(s) given in the dot-bracket notation")
         seq = input()
-        if C.checkLength(seq) or C.checkNumbers(seq) \
-                or C.checkLetters(seq):
+        if False:  # C.checkLength(seq) or C.checkNumbers(seq) \
+            # or C.checkLetters(seq)
             print("Sequence is too short or bad input")
             print("Please, try again")
         else:
@@ -47,11 +51,26 @@ class Main:
     answer2 = input()
     if answer2.lower() == 'yes':
         for row in (soup.find_all(attrs={"class": ["row_table1", "row_table2"]})):
-            list1 = row.text.splitlines()
+            '''list1 = row.text.splitlines()
             sequence = ''.join(list1)
             # print(str(len(row.text)) + "fsafasfasfas")
-            file.write(row.text)
-            print(' '.join(sequence.split()))
+            sequence = ' '.join(sequence.split())
+            C.checkResult(sequence, sequence2)'''
+            for i in row.find_all("td"):
+                if counter == 14:
+                    counter = 0
+                if i.text == "AA":
+                    print(i.text.replace("AA", "A    A"))
+                    counter += 1
+                elif i.text == "BB":
+                    print(i.text.replace("BB", "B    B"))
+                    counter += 1
+                elif counter % 13 == 0 and counter != 0:
+                    print(" ")
+                    counter += 1
+                elif not i.text == "" or (names[counter] == "Å"):
+                    print(names[counter] + " "+i.text.strip())
+                    counter += 1
     else:
         parser.feed(tmp)
     file.close()
