@@ -1,0 +1,699 @@
+No. 1
+PDB id 1EHZ
+NDB id TR0001
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain A
+Start 1
+End   76
+Method X-Ray Difraction
+Class RNA
+PDB deposition 2000-02-23
+Å 1.93
+Models 1
+ 
+No. 2
+PDB id 1EVV
+NDB id TR0002
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain A
+Start 1
+End   76
+Method X-Ray Difraction
+Class RNA
+PDB deposition 2000-04-20
+Å 2
+Models 1
+ 
+No. 3
+PDB id 1FCW
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure ((.((((..((.(.....[..).)).((((.........)))).....(((((..]....))))))))).))....
+Chain A
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2000-07-19
+Å 17
+Models 1
+ 
+No. 4
+PDB id 1FCW
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((.(((..(.((.....[..)).).((((.........)))).....(((((..]....)))))))).)))....
+Chain B
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2000-07-19
+Å 17
+Models 1
+ 
+No. 5
+PDB id 1FCW
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain C
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2000-07-19
+Å 17
+Models 1
+ 
+No. 6
+PDB id 1FCW
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain D
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2000-07-19
+Å 17
+Models 1
+ 
+No. 7
+PDB id 1FCW
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((.(..((((.....[..)))).((((.........)))).....(((((..]....)))))).)))))....
+Chain E
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2000-07-19
+Å 17
+Models 1
+ 
+No. 8
+PDB id 1GIX
+NDB id RR0031
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....{..)))).((((...[[[...)))).....(((((..}....))))))))))))....
+Chain B
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2001-03-30
+Å 5.5
+Models 1
+ 
+No. 9
+PDB id 1GIX
+NDB id RR0031
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure .((((((..((((.....{..)))).((((...[[[...)))).....(((((..}....))))))))))).....
+Chain C
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2001-03-30
+Å 5.5
+Models 1
+ 
+No. 10
+PDB id 1JGO
+NDB id RR0034
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....{..)))).((((...[[[...)))).....(((((..}....))))))))))))....
+Chain B
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2001-06-26
+Å 5.6
+Models 1
+ 
+No. 11
+PDB id 1JGO
+NDB id RR0034
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure .((((((..((((.....{..)))).((((...[[[...)))).....(((((..}....))))))))))).....
+Chain C
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2001-06-26
+Å 5.6
+Models 1
+ 
+No. 12
+PDB id 1JGP
+NDB id RR0035
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....{..)))).((((...[[[...)))).....(((((..}....))))))))))))....
+Chain B
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2001-06-26
+Å 7
+Models 1
+ 
+No. 13
+PDB id 1JGP
+NDB id RR0035
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure .((((((..((((.....{..)))).((((...[[[...)))).....(((((..}....))))))))))).....
+Chain C
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2001-06-26
+Å 7
+Models 1
+ 
+No. 14
+PDB id 1JGQ
+NDB id RR0036
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain B
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2001-06-26
+Å 5
+Models 1
+ 
+No. 15
+PDB id 1JGQ
+NDB id RR0036
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure .((((((..((((.....{..)))).((((...[[[...)))).....(((((..}....))))))))))).....
+Chain C
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2001-06-26
+Å 5
+Models 1
+ 
+No. 16
+PDB id 1MJ1
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain D
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2002-08-26
+Å 13
+Models 1
+ 
+No. 17
+PDB id 1MJ1
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure .((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))).....
+Chain C
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2002-08-26
+Å 13
+Models 1
+ 
+No. 18
+PDB id 1ML5
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure .((((((..((((.....{..)))).((((...[[[...)))).....(((((..}....))))))))))).....
+Chain B
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2002-08-30
+Å 14
+Models 1
+ 
+No. 19
+PDB id 1OB2
+NDB id 1OB2
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGUuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).(((...........))).....(((((..]....))))))))))))....
+Chain B
+Start 1
+End   76
+Method X-Ray Difraction
+Class HYDROLASE/NUCLEAR PROTEIN
+PDB deposition 2003-01-24
+Å 3.35
+Models 1
+ 
+No. 20
+PDB id 1PNS
+NDB id RR0072
+Sequence GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure .((((((..((((.....[..)))).(((((...{...))))).....(((((..]....))))))))))).....
+Chain V
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2003-06-13
+Å 8.7
+Models 1
+ 
+No. 21
+PDB id 1PNS
+NDB id RR0072
+Sequence GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).(((((.......))))).....(((((..]....))))))))))))....
+Chain W
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2003-06-13
+Å 8.7
+Models 1
+ 
+No. 22
+PDB id 1SZ1
+NDB id PR0126
+Sequence gCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain E
+Start 1
+End   76
+Method X-Ray Difraction
+Class TRANSFERASE/RNA
+PDB deposition 2004-04-02
+Å 6.21
+Models 1
+ 
+No. 23
+PDB id 1SZ1
+NDB id PR0126
+Sequence gCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain F
+Start 1
+End   76
+Method X-Ray Difraction
+Class TRANSFERASE/RNA
+PDB deposition 2004-04-02
+Å 6.21
+Models 1
+ 
+No. 24
+PDB id 1TN1
+NDB id 1TN1
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain A
+Start 1
+End   76
+Method X-Ray Difraction
+Class RNA
+PDB deposition 1986-12-04
+Å 3
+Models 1
+ 
+No. 25
+PDB id 1TN2
+NDB id TRNA03
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain A
+Start 1
+End   76
+Method X-Ray Difraction
+Class T-RNA
+PDB deposition 1986-08-22
+Å 3
+Models 1
+ 
+No. 26
+PDB id 1TRA
+NDB id TRNA06
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain A
+Start 1
+End   76
+Method X-Ray Difraction
+Class T-RNA
+PDB deposition 1986-05-16
+Å 3
+Models 1
+ 
+No. 27
+PDB id 1TTT
+NDB id PTR012
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((.(.....[..).)).((((.........)))).....(((((..]....))))))))))))....
+Chain D
+Start 1
+End   76
+Method X-Ray Difraction
+Class COMPLEX (ELONGATION FACTOR/TRNA)
+PDB deposition 1995-11-16
+Å 2.7
+Models 1
+ 
+No. 28
+PDB id 1TTT
+NDB id PTR012
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((...(((.....[..)))..((((.........)))).....(((((..]....))))))))))))....
+Chain E
+Start 1
+End   76
+Method X-Ray Difraction
+Class COMPLEX (ELONGATION FACTOR/TRNA)
+PDB deposition 1995-11-16
+Å 2.7
+Models 1
+ 
+No. 29
+PDB id 1TTT
+NDB id PTR012
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain F
+Start 1
+End   76
+Method X-Ray Difraction
+Class COMPLEX (ELONGATION FACTOR/TRNA)
+PDB deposition 1995-11-16
+Å 2.7
+Models 1
+ 
+No. 30
+PDB id 1YL4
+NDB id RR0120
+Sequence GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure ((.(.((.....(........).....(.............)......((.((.......)).)))).).))....
+Chain B
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2005-01-19
+Å 5.5
+Models 1
+ 
+No. 31
+PDB id 1YL4
+NDB id RR0120
+Sequence GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (..(.((..((((........)))).(((((...[...))))).....(((((.......))))))).)..)....
+Chain C
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2005-01-19
+Å 5.5
+Models 1
+ 
+No. 32
+PDB id 1ZO1
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (.(((((..((((........)))).((((.........)))).....(((((.......)))))))))).)....
+Chain F
+Start 1
+End   76
+Method Electron Microscopy
+Class TRANSLATION/RNA
+PDB deposition 2005-05-12
+Å 13.8
+Models 1
+ 
+No. 33
+PDB id 1ZO3
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (.(((((..((((........)))).((((.........)))).....(((((.......)))))))))).)....
+Chain A
+Start 1
+End   76
+Method Electron Microscopy
+Class RNA
+PDB deposition 2005-05-12
+Å 13.8
+Models 1
+ 
+No. 34
+PDB id 1ZO3
+NDB id 
+Sequence GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (.(((((..((((........)))).((((.........)))).....(((((.......)))))))))).)....
+Chain B
+Start 1
+End   76
+Method Electron Microscopy
+Class RNA
+PDB deposition 2005-05-12
+Å 13.8
+Models 1
+ 
+No. 35
+PDB id 2B64
+NDB id RR0128
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure .(....(....((........)).............[...........((.............)))....).....
+Chain V
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2005-09-30
+Å 5.9
+Models 1
+ 
+No. 36
+PDB id 2B64
+NDB id RR0128
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAgAuCUGGAGGUCCUGUGUuCGAUCCACAGAAUUCGCACCA
+Secondary Structure .((((....((((.....[..)))).((((.........)))).......(((..]....)))....)))).....
+Chain W
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2005-09-30
+Å 5.9
+Models 1
+ 
+No. 37
+PDB id 2B9M
+NDB id RR0130
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure .(....(....((........)).........................((.............)))....).....
+Chain V
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2005-10-12
+Å 6.76
+Models 1
+ 
+No. 38
+PDB id 2B9M
+NDB id RR0130
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAgAuCUGGAGGUCCUGUGUuCGAUCCACAGAAUUCGCACCA
+Secondary Structure .((((....((((.....[..)))).((((.........)))).......(((..]....)))....)))).....
+Chain W
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2005-10-12
+Å 6.76
+Models 1
+ 
+No. 39
+PDB id 2B9O
+NDB id RR0132
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure .(....(....((........)).............[...........((.............)))....).....
+Chain V
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2005-10-12
+Å 6.46
+Models 1
+ 
+No. 40
+PDB id 2B9O
+NDB id RR0132
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAgAuCUGGAGGUCCUGUGUuCGAUCCACAGAAUUCGCACCA
+Secondary Structure .((((....((((.....[..)))).((((.........)))).......(((..]....)))....)))).....
+Chain W
+Start 1
+End   76
+Method X-Ray Difraction
+Class RIBOSOME
+PDB deposition 2005-10-12
+Å 6.46
+Models 1
+ 
+No. 41
+PDB id 2GY9
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((........)))).((((.........)))).....(((((.......))))))))))))....
+Chain U
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2006-05-09
+Å 15
+Models 1
+ 
+No. 42
+PDB id 2GY9
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((........)))).((((.........)))).....(((((.......))))))))))))....
+Chain V
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2006-05-09
+Å 15
+Models 1
+ 
+No. 43
+PDB id 2GY9
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((........)))).((((.........)))).....(((((.......))))))))))))....
+Chain W
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2006-05-09
+Å 15
+Models 1
+ 
+No. 44
+PDB id 2GYB
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((........)))).((((.........)))).....(((((.......))))))))))))....
+Chain U
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2006-05-09
+Å 15
+Models 1
+ 
+No. 45
+PDB id 2GYB
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((........)))).((((.........)))).....(((((.......))))))))))))....
+Chain V
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2006-05-09
+Å 15
+Models 1
+ 
+No. 46
+PDB id 2GYB
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((........)))).((((.........)))).....(((((.......))))))))))))....
+Chain W
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2006-05-09
+Å 15
+Models 1
+ 
+No. 47
+PDB id 3DEG
+NDB id 
+Sequence GCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
+Secondary Structure (((((((..((((.....[..)))).((((.........)))).....(((((..]....))))))))))))....
+Chain A
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2008-06-10
+Å 
+Models 1
+ 
+No. 48
+PDB id 3E1A
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure ..(((((..((((.....{..)))).((((....[[...)))).....(((((..}....)))))))))).....-
+Chain A
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2008-08-03
+Å 9
+Models 1
+ 
+No. 49
+PDB id 3E1A
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure (((((((....((........))....((....[[[[...))......((((.........)))))))))))...-
+Chain P
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2008-08-03
+Å 9
+Models 1
+ 
+No. 50
+PDB id 3E1A
+NDB id 
+Sequence gCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCACCA
+Secondary Structure .((((((..((((........)))).(((((.......))))).....(((((.......))))))))))).....
+Chain E
+Start 1
+End   76
+Method Electron Microscopy
+Class RIBOSOME
+PDB deposition 2008-08-03
+Å 9
+Models 1

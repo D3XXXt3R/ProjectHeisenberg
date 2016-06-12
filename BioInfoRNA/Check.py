@@ -10,6 +10,14 @@ class Check:
                 return True
             i += 1
 
+    def checkCharacters(self, seq):
+        i = 0
+        signs = ('.', '(', ')', '[', ']', '{', '}', '<', '>', '?', '\n')
+        while i < len(seq):
+            if seq[i] not in signs:
+                return True
+            i += 1
+
     def checkNumbers(self, seq):
         if re.findall('\d+', seq):
             return True
