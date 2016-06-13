@@ -1,0 +1,3 @@
+#tRNA(Phe), yeast (Saccharomyces Scerevisiae)
+>strand1
+gCGGAUUUAgCUCAGuuGGGAGAGCgCCAGAcUgAAgAucUGGAGgUCcUGUGuuCGaUCCACAGAAUUCGCACCA
