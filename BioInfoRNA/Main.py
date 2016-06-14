@@ -5,10 +5,14 @@ from tkinter import filedialog, Tk
 
 
 class Main:
+    """
+    Main Class
+    """
     H = Helper()
     sequence = ""
     counter = 0
     elementNumber = 0
+    url1 = "http://rnafrabase.cs.put.poznan.pl/index.php"
     # browser = webdriver.Chrome("C:/Users/Dante/Desktop/chromedriver.exe")
     checkList = []
     browser = webdriver.PhantomJS("C:/Users/Dante/Desktop/phantom/bin/phantomjs")
@@ -33,6 +37,7 @@ class Main:
     flag = 1
     lines = []
     text1.clear()
+
     while True:
         if flag > 1:
             text1.send_keys("\n" + ">strand" + str(flag) + "\n")
@@ -44,7 +49,12 @@ class Main:
             fileIn.close()
             text1.send_keys(seq)
             button.click()
-            break
+            url2 = str(browser.current_url)
+            if url1 == url2:
+                        print("Bad Input, please check your file and restart program")
+                        quit()
+            else:
+                break
         else:
             print("Please input sequence(s) and/or secondary structure(s) given in the dot-bracket notation")
             while True:
@@ -67,7 +77,6 @@ class Main:
                 print("Next sequence?")
                 answer = input()
                 if answer.lower() == 'no':
-                    url1 = "http://rnafrabase.cs.put.poznan.pl/index.php"
                     button.click()
                     url2 = str(browser.current_url)
                     if url1 == url2:
@@ -83,12 +92,10 @@ class Main:
         if answer.lower() == "no":
             break
 
-    # tmp = browser.page_source
     result = []
     soup = BeautifulSoup(browser.page_source, "html.parser")
     print("Do you want to save data to a file?")
     answer2 = input()
-    # C.mainAlg(answer2, soup, counter, sequence, names)
 
     while True:
         print("Please select what range of result do you want check")
