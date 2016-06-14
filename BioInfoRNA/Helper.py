@@ -2,8 +2,8 @@ import re
 from tkinter import filedialog, Tk
 
 
-class Check:
-    def checkCharacters(self, seq):
+class Helper:
+    def check_characters(self, seq):
         i = 0
         chars = ('A', 'C', 'G', 'U', 'R', 'Y', 'M', 'K', 'W', 'S', 'B', 'D', 'H', 'V', 'N',
                  '.', '(', ')', '[', ']', '{', '}', '<', '>', '?', '\n')
@@ -13,12 +13,12 @@ class Check:
                 return True
             i += 1
 
-    def checkNumbers(self, seq):
+    def check_numbers(self, seq):
         if re.findall('\d+', seq):
             print("Invalid characters in sequence")
             return True
 
-    def checkLength(self, seq):
+    def check_length(self, seq):
         chars = ('A', 'C', 'G', 'U', 'R', 'Y', 'M', 'K', 'W', 'S', 'B', 'D', 'H', 'V', 'N')
         braces = ('(', ')', '[', ']', '{', '}')
         if len(seq) < 11 and (seq.count(seq[0]) == len(seq)) and all(x == seq[0] for x in seq) and seq[0] == ".":
@@ -31,14 +31,14 @@ class Check:
             print("Sequence too short")
             return True
 
-    def checkIdentity(self, seq, flag, list1):
+    def check_identity(self, seq, flag, list1):
         if seq in list1 and flag > 1 and not (seq == list1[len(list1)-1]):
             print("Incorrect pattern definition")
             return True
         else:
             return False
 
-    def mainAlg(self, answer, soup, counter, sequence, names):
+    def main_alghorithm(self, answer, soup, counter, sequence, names):
         if answer.lower() == "yes":
             root = Tk()
             root.fileName = filedialog.askopenfilename()

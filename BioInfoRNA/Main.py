@@ -1,11 +1,11 @@
 from selenium import webdriver
-from BioInfoRNA.Check import Check
+from BioInfoRNA.Helper import Helper
 from bs4 import BeautifulSoup
 from tkinter import filedialog, Tk
 
 
 class Main:
-    C = Check()
+    H = Helper()
     sequence = ""
     counter = 0
     elementNumber = 0
@@ -56,9 +56,10 @@ class Main:
                     break
             seq = '\n'.join(lines)
             lines = []
-        if C.checkIdentity(seq, flag, checkList) or C.checkNumbers(seq) or C.checkCharacters(seq) or C.checkLength(seq):
+        if H.check_identity(seq, flag, checkList) or H.check_numbers(seq) or H.check_characters(seq) or H.check_length(seq):
             # print("Sequence is too short or bad input")
             print("Please, try again")
+            flag = 1
             text1.clear()
         else:
             text1.send_keys(seq)
@@ -78,6 +79,8 @@ class Main:
                     print("Bad answer")
                 if answer.lower() == 'yes':
                     flag += 1
+                    break
+        if answer.lower() == "no":
             break
 
     # tmp = browser.page_source
@@ -96,7 +99,7 @@ class Main:
         number = input()
         buttonC = browser.find_element_by_link_text(result[int(number)]).click()
         soup = BeautifulSoup(browser.page_source, "html.parser")
-        C.mainAlg(answer2, soup, counter, sequence, names)
+        H.main_alghorithm(answer2, soup, counter, sequence, names)
         print("Do you want more result?")
         answer3 = input()
         if answer3.lower() == "no":

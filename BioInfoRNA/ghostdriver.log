@@ -1,12 +1,12 @@
-[INFO  - 2016-06-13T23:50:15.488Z] GhostDriver - Main - running on port 56831
-[INFO  - 2016-06-13T23:50:16.725Z] Session [94429720-31c1-11e6-8770-9f942d2289ea] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2016-06-13T23:50:16.725Z] Session [94429720-31c1-11e6-8770-9f942d2289ea] - page.customHeaders:  - {}
-[INFO  - 2016-06-13T23:50:16.725Z] Session [94429720-31c1-11e6-8770-9f942d2289ea] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2016-06-13T23:50:16.725Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 94429720-31c1-11e6-8770-9f942d2289ea
-[ERROR - 2016-06-13T23:50:39.737Z] Session [94429720-31c1-11e6-8770-9f942d2289ea] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('my_form').action')
+[INFO  - 2016-06-14T01:36:53.059Z] GhostDriver - Main - running on port 57558
+[INFO  - 2016-06-14T01:36:54.278Z] Session [797f8e20-31d0-11e6-82e2-af2c8bfff048] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-06-14T01:36:54.278Z] Session [797f8e20-31d0-11e6-82e2-af2c8bfff048] - page.customHeaders:  - {}
+[INFO  - 2016-06-14T01:36:54.278Z] Session [797f8e20-31d0-11e6-82e2-af2c8bfff048] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-06-14T01:36:54.278Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 797f8e20-31d0-11e6-82e2-af2c8bfff048
+[ERROR - 2016-06-14T01:38:06.519Z] Session [797f8e20-31d0-11e6-82e2-af2c8bfff048] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('my_form').action')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2016-06-13T23:50:39.737Z] Session [94429720-31c1-11e6-8770-9f942d2289ea] - page.onError - stack:
+[ERROR - 2016-06-14T01:38:06.519Z] Session [797f8e20-31d0-11e6-82e2-af2c8bfff048] - page.onError - stack:
   onclick (http://rnafrabase.cs.put.poznan.pl/:169)
   dispatchEvent (:0)
   U (:119)
@@ -19,6 +19,5 @@
   (anonymous function) (:153)
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2016-06-13T23:55:15.892Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2016-06-14T00:00:15.892Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2016-06-14T00:05:15.932Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-06-14T01:41:53.066Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-06-14T01:46:53.066Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
