@@ -1,5 +1,5 @@
 from unittest import TestCase
-from BioInfoRNA.Helper import Helper
+from Helper import Helper
 
 
 class TestHelper(TestCase):

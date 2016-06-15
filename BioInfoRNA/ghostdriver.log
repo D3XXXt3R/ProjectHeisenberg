@@ -1,5 +1,21 @@
-[INFO  - 2016-06-14T08:50:35.242Z] GhostDriver - Main - running on port 49703
-[INFO  - 2016-06-14T08:50:36.459Z] Session [0fed4370-320d-11e6-9ecd-4bdf47a9bfc8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2016-06-14T08:50:36.459Z] Session [0fed4370-320d-11e6-9ecd-4bdf47a9bfc8] - page.customHeaders:  - {}
-[INFO  - 2016-06-14T08:50:36.459Z] Session [0fed4370-320d-11e6-9ecd-4bdf47a9bfc8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2016-06-14T08:50:36.459Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0fed4370-320d-11e6-9ecd-4bdf47a9bfc8
+[INFO  - 2016-06-15T08:07:14.559Z] GhostDriver - Main - running on port 50810
+[INFO  - 2016-06-15T08:07:15.029Z] Session [2bc31390-32d0-11e6-ab01-f9433531e931] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-06-15T08:07:15.030Z] Session [2bc31390-32d0-11e6-ab01-f9433531e931] - page.customHeaders:  - {}
+[INFO  - 2016-06-15T08:07:15.030Z] Session [2bc31390-32d0-11e6-ab01-f9433531e931] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-06-15T08:07:15.030Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2bc31390-32d0-11e6-ab01-f9433531e931
+[ERROR - 2016-06-15T08:07:30.738Z] Session [2bc31390-32d0-11e6-ab01-f9433531e931] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('my_form').action')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-06-15T08:07:30.738Z] Session [2bc31390-32d0-11e6-ab01-f9433531e931] - page.onError - stack:
+  onclick (http://rnafrabase.cs.put.poznan.pl/:169)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error

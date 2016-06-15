@@ -1,5 +1,5 @@
 from selenium import webdriver
-from BioInfoRNA.Helper import Helper
+from Helper import Helper
 from bs4 import BeautifulSoup
 from tkinter import filedialog, Tk
 
@@ -19,7 +19,7 @@ class Main:
     browser.get("http://rnafrabase.cs.put.poznan.pl")
     button = browser.find_element_by_name("send")
     text1 = browser.find_element_by_id("sequences")
-    names = ("No.", "PDB id", "NDB id", "Sequence", "Secondary Structure",
+    names = ("No.", "PDB id", "NDB id", "Sequence           ", "Secondary Structure",
              "Chain", "Start", "End  ", "Method", "Class", "PDB deposition", "Å", "Models")
 
     while True:
@@ -66,9 +66,11 @@ class Main:
                     break
             seq = '\n'.join(lines)
             lines = []
-        if H.check_identity(seq, flag, checkList) or H.check_numbers(seq) or H.check_characters(seq) or H.check_length(seq):
+        if H.check_identity(seq, flag, checkList) or H.check_numbers(seq) or H.check_characters(seq) \
+                or H.check_length(seq):
             # print("Sequence is too short or bad input")
             print("Please, try again")
+            answer = ""
             flag = 1
             text1.clear()
         else:
@@ -89,9 +91,8 @@ class Main:
                 if answer.lower() == 'yes':
                     flag += 1
                     break
-        if answer.lower() == "no":
-            break
-
+            if answer.lower() == "no":
+                break
     result = []
     soup = BeautifulSoup(browser.page_source, "html.parser")
     print("Do you want to save data to a file?")
